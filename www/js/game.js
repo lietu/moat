@@ -1,5 +1,5 @@
 define([
-    "pixi", "fpsmeter", "sock", "player", "bullet", "utils"
+    "pixi", "fpsmeter", "sockjs", "player", "bullet", "utils"
 ], function (PIXI, FPSMeter, SockJS, Player, Bullet, Utils) {
 
     var assets = {

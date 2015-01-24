@@ -4,7 +4,7 @@
         paths: {
             "fpsmeter": "lib/fpsmeter/dist/fpsmeter",
             "pixi": "lib/pixi.js/bin/pixi.dev",
-            "sock": "lib/sockjs/sockjs",
+            "sockjs": "lib/sockjs/sockjs",
             "async": "lib/async/lib/async"
         },
         shim: {
