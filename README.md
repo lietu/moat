@@ -7,6 +7,13 @@ Backend is using [Tornado](http://www.tornadoweb.org/), frontend is using
 [Pixi](http://www.pixijs.com/).
 
 
+What does it look like?
+-----------------------
+
+[![Quick video of Moat](http://img.youtube.com/vi/lgFNokoAdNQ/0.jpg)](http://youtu.be/lgFNokoAdNQ)
+
+
+
 Requirements
 ------------
 
