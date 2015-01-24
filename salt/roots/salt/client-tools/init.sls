@@ -1,4 +1,4 @@
-{% for pkg in 'nodejs', 'npm' %}
+{% for pkg in 'git', 'nodejs', 'npm' %}
 {{ pkg }}:
     pkg.installed
 {% endfor %}
