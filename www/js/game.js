@@ -64,6 +64,28 @@ define([
 
             // add the renderer view element to the DOM
             document.body.appendChild(this.renderer.view);
+
+            this.resize();
+            window.addEventListener("resize", this.resize.bind(this));
+        },
+
+        resize: function resize() {
+            var ratio = 640 / 480;
+            var maxWidth = window.innerWidth;
+            var maxHeight = window.innerHeight;
+            var width, height;
+
+            if (maxWidth / ratio > maxHeight) {
+                width = maxHeight * ratio;
+                height = maxHeight;
+            } else {
+                width = maxWidth;
+                height = maxWidth / ratio;
+            }
+
+            var view = this.renderer.view;
+            view.style.width = width;
+            view.style.height = height;
         },
 
         start: function start() {
